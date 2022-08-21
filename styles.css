@@ -1,0 +1,118 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.hdqwalls.com/download/fireworks-flare-up-gi-1360x768.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    display: inline-block;
+    margin: 130px;
+    margin-top: 180px;
+    margin-left: 75px;
+    padding : 30px;
+    justify-content: space-around;
+    color: #fff;   
+    position: fixed;
+
+}
+
+.time{
+    word-spacing: 0.1px;
+    
+}
+
+.time h1{
+    margin: 30px;   
+    margin-left: 5px;
+    font-size: 77px;
+    word-spacing: 10px;
+}
+.time p{
+    display : inline-flex;
+    margin-left: 35px;
+    margin-right: 1px;
+    padding-bottom: 10px;
+    font-size: 28px;    
+}
+.time_value{
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.time_value p{
+    margin-left: 42px;
+    margin-right: 40px;    
+}
+#hours{
+    margin-left:30px;
+}
+#minutes{
+    margin-left:50px;
+}
+#seconds{
+    margin-left:77px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container{
+        display: inline-block;
+        margin: 70px;
+        margin-top: 200px;
+        margin-left: 5px;
+        padding : 40px;
+        justify-content: space-around;
+        color: #fff;   
+        position: absolute;
+    }
+
+    .time h1{
+        margin: 30px; 
+        margin-left: 5px;
+        font-size: 45px;
+        word-spacing: 5px;
+    }
+
+    .time p{
+        display : inline-flex;
+        margin: 5px;
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 1px;
+        padding-bottom: 5px;
+        font-size: 16px;    
+    }
+
+    .time_value{
+        display: inline-flex;
+        text-align: center;
+        margin-bottom: 35px;
+        font-size: 35px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .time_value p{
+        margin-left: 20px;
+        margin-right: 23px;    
+    }
+    #hours{
+        margin-left:20px;
+    }
+    #minutes{
+        margin-left:33px;
+    }
+    #seconds{
+        margin-left:40px;
+    }
+}
+
